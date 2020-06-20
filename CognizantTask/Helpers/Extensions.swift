@@ -1,9 +1,9 @@
 //
 //  Extensions.swift
-//  WiproProficiencyExercise
+//  CognizantTask
 //
-//  Created by Kalyan Mannem on 12/12/19.
-//  Copyright © 2019 CompIndia. All rights reserved.
+//  Created by Barath on 20/06/20.
+//  Copyright © 2020 Barath. All rights reserved.
 //
 
 import Foundation
@@ -30,7 +30,7 @@ extension UIViewController
         loadingView.backgroundColor = .red
         loadingView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(loadingView)
-        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+        let activityIndicator = UIActivityIndicatorView(style: .large)
         activityIndicator.startAnimating()
         activityIndicator.color = UIColor.white
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false

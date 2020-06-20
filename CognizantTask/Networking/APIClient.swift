@@ -1,9 +1,9 @@
 //
 //  APIClient.swift
-//  WiproProficiencyExercise
+//  CognizantTask
 //
-//  Created by Kalyan Mannem on 12/12/19.
-//  Copyright © 2019 CompIndia. All rights reserved.
+//  Created by Barath on 20/06/20.
+//  Copyright © 2020 Barath. All rights reserved.
 //
 
 import Foundation

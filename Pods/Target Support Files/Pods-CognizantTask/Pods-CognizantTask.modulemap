@@ -1,0 +1,6 @@
+framework module Pods_CognizantTask {
+  umbrella header "Pods-CognizantTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
