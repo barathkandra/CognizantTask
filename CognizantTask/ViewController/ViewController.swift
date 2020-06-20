@@ -6,9 +6,11 @@
 //  Copyright © 2020 Barath. All rights reserved.
 //
 
+
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
     let tableView = UITableView()
     private var results: [Row] = []
     private let canadaViewModel = CanadaViewModel()
@@ -27,7 +29,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        self.view.backgroundColor = .white
         self.updateTablview()
         self.getServiceData()
     }
@@ -47,9 +48,9 @@ class ViewController: UIViewController {
     func updateTablview(){
         tableView.backgroundColor = .white
         tableView.dataSource = self
-        
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableView.automaticDimension
+        tableView.tableFooterView = UIView()
     }
     
     @objc func handleRefresh(_ refreshControl: UIRefreshControl){
@@ -63,7 +64,7 @@ class ViewController: UIViewController {
     }
     
     func getServiceData(_ isFromRefresh: Bool = false){
-        guard Utility.isConnectedtoNetwork() else {
+        guard Utility.isConnectedtoNetwork() else{
             if(isFromRefresh){
                 refreshControl.endRefreshing()
             }
@@ -108,3 +109,5 @@ extension ViewController: UITableViewDataSource {
         return cell
     }
 }
+
+

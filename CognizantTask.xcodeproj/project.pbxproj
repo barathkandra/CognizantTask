@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		75D8A002FD732505FCC77AE4 /* Pods_CognizantTask_CognizantTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB2ADFC4766B40FB4922B96 /* Pods_CognizantTask_CognizantTaskUITests.framework */; };
 		A66D36D5249DCFD70014CA0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D36D4249DCFD70014CA0E /* AppDelegate.swift */; };
-		A66D36D7249DCFD70014CA0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D36D6249DCFD70014CA0E /* SceneDelegate.swift */; };
 		A66D36DE249DCFDD0014CA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66D36DD249DCFDD0014CA0E /* Assets.xcassets */; };
 		A66D36E1249DCFDD0014CA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66D36DF249DCFDD0014CA0E /* LaunchScreen.storyboard */; };
 		A66D36EC249DCFDD0014CA0E /* CognizantTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D36EB249DCFDD0014CA0E /* CognizantTaskTests.swift */; };
@@ -52,7 +51,6 @@
 		8B2029CF7BF07EEE77D33235 /* Pods-CognizantTask-CognizantTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognizantTask-CognizantTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-CognizantTask-CognizantTaskUITests/Pods-CognizantTask-CognizantTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A66D36D1249DCFD70014CA0E /* CognizantTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognizantTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66D36D4249DCFD70014CA0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A66D36D6249DCFD70014CA0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A66D36DD249DCFDD0014CA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A66D36E0249DCFDD0014CA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A66D36E2249DCFDD0014CA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				A66D36D4249DCFD70014CA0E /* AppDelegate.swift */,
-				A66D36D6249DCFD70014CA0E /* SceneDelegate.swift */,
 				A66D3704249E2AD60014CA0E /* ViewController */,
 				A66D3710249E2BA60014CA0E /* ViewModel */,
 				A66D3707249E2B210014CA0E /* Cells */,
@@ -477,7 +474,6 @@
 				A66D3718249E2BC40014CA0E /* Utility.swift in Sources */,
 				A66D3706249E2AD60014CA0E /* ViewController.swift in Sources */,
 				A66D3717249E2BC40014CA0E /* Extensions.swift in Sources */,
-				A66D36D7249DCFD70014CA0E /* SceneDelegate.swift in Sources */,
 				A66D3712249E2BA60014CA0E /* CanadaViewModel.swift in Sources */,
 				A66D370C249E2B700014CA0E /* CanadaModel.swift in Sources */,
 				A66D370F249E2B920014CA0E /* APIClient.swift in Sources */,
